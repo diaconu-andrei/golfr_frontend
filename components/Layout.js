@@ -16,7 +16,10 @@ const Layout = ({ children }) => {
             <a>Home</a>
           </Link>
           <Link href={`/golfers/${getUserId()}`}>
-            <a>Your profile</a>
+            <a>Your scores</a>
+          </Link>
+          <Link href={`/golfers/${getUserId()}/articles`}>
+            <a>Your articles</a>
           </Link>
         </span>
         <span className="h-8 items-center text-xl ml-auto ">
