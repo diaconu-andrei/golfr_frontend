@@ -59,7 +59,7 @@ const ScorePostWidget = () => {
                 className="form-input h-8 ml-3 my-2"
               />
             </div>
-            <button className="w-40 p-1 my-2 bg-gray-200 rounded-lg">
+            <button className="w-40 p-1 my-2 bg-gray-200 rounded-lg hover:bg-blue-600">
               Post
             </button>
           </div>
